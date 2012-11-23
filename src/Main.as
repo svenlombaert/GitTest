@@ -1,5 +1,7 @@
 package {
 
+import be.devine.cp3.model.AppModel;
+
 import flash.display.Sprite;
 import flash.text.TextField;
 
@@ -9,7 +11,7 @@ public class Main extends Sprite {
         textField.text = "Hello, World";
         addChild(textField);
 
-        trace('Hello');
+        var appModel:AppModel = new AppModel();
     }
 }
 }
